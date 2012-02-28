@@ -20,11 +20,10 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.code.gson</groupId>
+      <groupId>com.google.code.gson.renamed</groupId>
       <artifactId>gson</artifactId>
       <version>1.7.1</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/libs/gson-renamed-1.7.1.jar</systemPath>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>

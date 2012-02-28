@@ -27,3 +27,6 @@ httpmime:
 
 gson:
 [http://code.google.com/p/google-gson/](http://code.google.com/p/google-gson/)
+
+### Installing gson-renamed into Local Maven Repository ###
+mvn install:install-file  -Dfile=BoxAndroidLibrary/libs/gson-renamed-1.7.1.jar -DgroupId=com.google.code.gson.renamed -DartifactId=gson -Dversion=1.7.1 -Dpackaging=jar
